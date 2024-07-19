@@ -8,7 +8,7 @@ const Ahead2: React.FC = () => {
         Not having your own emotions under <br /> control might be holding you back.
       </p>
       <p className="ahead2-paragraph">
-        Additionally, not understanding those <br /> of others stops you from being the best parent, friend you can be.
+        Additionally, not understanding those mean <br /> of others stops you from being the best parent, friend you can be.
       </p>
     </div>
   );
