@@ -8,6 +8,814 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  position: relative; 
+}
+
+ul {
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  background-color: #0f1010;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+div {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  margin-top: 0px;
+  background-color: rgb(238, 235, 254);
+}
+
+.text-center h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: black;
+}
+
+.emoji {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.emoji p {
+  color: black;
+}
+
+.card {
+  width: 280px;
+  height: 180px;
+  background-color: rgb(216, 242, 255);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card1 {
+  width: 280px;
+  height: 180px;
+  background-color: rgb(238, 235, 254);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card2 {
+  width: 280px;
+  height: 180px;
+  background-color: rgb(99, 65, 239);
+  transform: rotate(20deg);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card3 {
+  width: 280px;
+  height: 180px;
+  background-color: rgb(255, 239, 213);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.beats {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.beats h1, p {
+  color: black;
+  font-weight: 600;
+}
+.container{
+  
+  background-color: white;
+  margin-top: 0px;
+  padding: 100px;
+}
+.button1{
+  margin: 20px;
+}
+
+.open-vacancy-title {
+  color: black;
+  font-weight: bold;
+  position: relative;
+  left: -450px;
+  top: 20px;
+  font-size: 24px;
+}
+
+.vacancies-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.vacancy-card {
+  width: 300px;
+  height: 130px;
+  background: rgb(250, 232, 220);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.vacancy-card h1 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.company-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.company-info h1 {
+  color: rgb(92, 57, 237);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.company-info p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.download-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.feedback-container {
+  background: rgb(243, 241, 255);
+  margin-top: 0;
+  padding: 20px;
+}
+
+.work-title {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  position: relative;
+  left: -350px;
+  top: 50px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-card {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.product-card {
+  background: rgb(254, 247, 241);
+}
+
+.main-section {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.main-title {
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(101, 65, 242);
+}
+
+.main-card {
+  width: 100%;
+  max-width: 250px;
+  height: 150px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+}
+.feedback-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: rgb(237, 248, 254);
+  margin-top: 0;
+}
+
+.feedback-text {
+  color: black;
+}
+
+.feedback-title {
+  color: black;
+  font-weight: bold;
+}
+
+.feedback-steps {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.feedback-step {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.feedback-step h1 {
+  color: black;
+  font-weight: bold;
+}
+
+.feedback-circles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.you-circle {
+  background-color: rgb(99, 65, 239);
+}
+
+.anonymous1-circle {
+  background-color: rgb(64, 194, 252);
+  font-size: 10px;
+}
+
+.anonymous2-circle {
+  background-color: rgb(253, 179, 56);
+  font-size: 10px;
+}
+
+.anonymous3-circle {
+  background-color: rgb(88, 200, 150);
+  font-size: 10px;
+}
+.card-container {
+  background: rgb(255, 255, 255);
+  padding: 80px;
+  margin-top: 0;
+}
+
+.beats {
+  text-align: center;
+}
+
+.beats h1 {
+  color: black;
+  font-weight: bold;
+}
+
+.beats p {
+  color: black;
+}
+
+.familiar-title {
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.emoji {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 300px;
+  background: rgb(216,242,255);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.card1{
+  width: 100%;
+  max-width: 300px;
+  background: rgb(238,235,254);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.card2{
+  width: 100%;
+  max-width: 300px;
+  background: rgb(99,65,239);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transform: rotate(25deg);
+}
+.card3{
+  width: 100%;
+  max-width: 300px;
+  background: rgb(255,239,213);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  color: black;
+}
+.ahead2-container {
+  text-align: center;
+  padding: 80px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(255, 255, 255);
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+
+.ahead2-title {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  flex: 1;
+  margin: 10px;
+}
+
+.ahead2-paragraph {
+  color: black;
+  flex: 1;
+  margin: 10px;
+}
+
+@media (max-width: 639px) {
+  .ahead2-container {
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ahead2-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .ahead2-paragraph {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 639px) {
+  .ahead-app-container {
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+}
+
+@media (max-width: 639px) {
+  .card-container {
+    padding: 40px;
+  }
+
+  .beats h1 {
+    font-size:15px;
+    margin-right: 15px;
+  }
+
+  .familiar-title {
+    font-size: 15px;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .card-container {
+    padding: 60px;
+  }
+
+  .beats h1 {
+    font-size: 32px;
+  }
+
+  .familiar-title {
+    font-size: 24px;
+  }
+
+  .card {
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-container {
+    padding: 80px;
+  }
+
+  .beats h1 {
+    font-size: 40px;
+  }
+
+  .familiar-title {
+    font-size: 32px;
+  }
+
+  .card {
+    max-width: 22%;
+  }
+}
+
+@media (max-width: 639px) {
+  .feedback-title {
+    font-size: 24px;
+  }
+
+  .feedback-step h1 {
+    font-size: 20px;
+  }
+
+  .circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .you-circle {
+    font-size: 14px;
+  }
+
+  .anonymous1-circle,
+  .anonymous2-circle,
+  .anonymous3-circle {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .feedback-title {
+    font-size: 32px;
+  }
+
+  .feedback-step h1 {
+    font-size: 24px;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .you-circle {
+    font-size: 16px;
+  }
+
+  .anonymous1-circle,
+  .anonymous2-circle,
+  .anonymous3-circle {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .feedback-title {
+    font-size: 40px;
+  }
+
+  .feedback-step h1 {
+    font-size: 28px;
+  }
+
+  .circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  .you-circle {
+    font-size: 20px;
+  }
+
+  .anonymous1-circle,
+  .anonymous2-circle,
+  .anonymous3-circle {
+    font-size: 10px;
+  }
+}
+
+
+
+@media (max-width: 639px) {
+  .work-title {
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-card,
+  .main-card {
+    width: 90%;
+    max-width: none;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .work-title {
+    left: 0;
+    font-size: 35px;
+  }
+
+  .main-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .info-card,
+  .main-card {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .work-title {
+    left: -350px;
+    font-size: 40px;
+  }
+
+  .main-content {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .info-card,
+  .main-card {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .work-title {
+    font-size: 45px;
+  }
+
+  .info-card,
+  .main-card {
+    width: 320px;
+    height: 180px;
+  }
+
+  .main-title {
+    font-size: 55px;
+  }
+}
+
+
+
+@media (max-width: 639px) {
+  .open-vacancy-title {
+    left: 0;
+    top: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .vacancies-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vacancy-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .open-vacancy-title {
+    left: 0;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .vacancies-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .vacancy-card {
+    width: 45%;
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .open-vacancy-title {
+    left: -450px;
+    font-size: 24px;
+  }
+
+  .vacancies-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .vacancy-card {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .open-vacancy-title {
+    font-size: 26px;
+  }
+
+  .vacancy-card {
+    width: 320px;
+    height: 140px;
+  }
+
+  .company-info h1 {
+    font-size: 32px;
+  }
+}
+
+
+
+@media (max-width: 639px) {
+  .nav-menu {
+    display: none; 
+    flex-direction: column; 
+    gap: 1rem; 
+  }
+
+  .hamburger {
+    display: block; 
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  .nav-menu.active {
+    display: flex; 
+  }
+
+  ul {
+    flex-direction: column; 
+    width: 100%; 
+    padding: 0; 
+    gap: 1rem; 
+  }
+
+  button {
+    width: 150px;
+    height: 50px; 
+    position: relative;
+    top: 40px;
+    border-radius: 0%;
+    background-color: blue;
+   
+  }
+  nav h1{
+    position: relative;
+    top: 50px;
+  }
+  .download-button{
+    width: 170px;
+    height: 60px;
+    border-radius: 0%;
+    background-color: blue;
+  }
+  .button1{
+    width: 130px;
+    height: 40px;
+    border-radius: 0%;
+    position: relative;
+    top: -10px;
+    left: -20px;
+    background-color: blue;
+
+  }
+  .button2{
+    width: 200px;
+    height: 60px;
+    border-radius: 0%;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    background-color: blue;
+  }
+}
+
+@media (min-width: 640px) {
+  .nav-menu {
+    display: flex; 
+    flex-direction: row; 
+  }
+
+  .hamburger {
+    display: none; 
+  }
+
+  ul {
+    flex-direction: row; 
+  }
+ 
+}
+
+
+@media (min-width: 1440px) {
+  .text-center h1 {
+    font-size: 60px;
+  }
+.text-center Image{
+     flex-direction: column;
+}
+  .card, .card1, .card2, .card3 {
+    width: 320px;
+    height: 200px;
+  }
+ 
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
