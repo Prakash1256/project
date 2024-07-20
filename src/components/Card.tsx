@@ -16,22 +16,22 @@ const Card: React.FC = () => {
       <div className="emoji">
         <div className="card">
           <p>
-            😀 People with high emotional intelligence (EQ) live more fulfilled lives. They tend to be happier and have healthier relationships.
+             People with high emotional intelligence (EQ) live more fulfilled lives. They tend to be happier and have healthier relationships.
           </p>
         </div>
         <div className="card1">
           <p>
-            😀 They are more successful in their pursuits and make for inspiring leaders. According to science, they earn $29k more a year.
+             They are more successful in their pursuits and make for inspiring leaders. According to science, they earn $29k more a year.
           </p>
         </div>
         <div className="card2">
           <p>
-            😀 You argue with a colleague. You get angry and defensive, instead of staying open and working towards common ground.
+             You argue with a colleague. You get angry and defensive, instead of staying open and working towards common ground.
           </p>
         </div>
         <div className="card3">
           <p>
-            😀 You get a promotion at work. You question yourself and wonder when they'll realize you're an unqualified imposter, instead of trusting yourself and your abilities.
+             You get a promotion at work. You question yourself and wonder when theyll realize youre an unqualified imposter, instead of trusting yourself and your abilities.
           </p>
         </div>
       </div>
