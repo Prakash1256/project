@@ -8,6 +8,9 @@ First, run the development server:
 
 ![Screenshot 2024-07-20 120724](https://github.com/user-attachments/assets/95288363-09d9-4242-aab3-d0a1e28915c0)
 
+![image](https://github.com/user-attachments/assets/9c2b4025-42f4-45ce-803b-7f8719e103ce)
+
+
 
 ```bash
 npm run dev
