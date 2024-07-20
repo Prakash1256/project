@@ -2,7 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+deploye Vercel Link-https://project-r9fl-git-main-kunwar-prakash-singhs-projects.vercel.app/
+
 First, run the development server:
+
+![Screenshot 2024-07-20 120724](https://github.com/user-attachments/assets/95288363-09d9-4242-aab3-d0a1e28915c0)
+
 
 ```bash
 npm run dev
