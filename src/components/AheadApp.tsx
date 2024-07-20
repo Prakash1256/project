@@ -12,6 +12,9 @@ const AheadApp: React.FC = () => {
         justifyContent: 'space-around',
         background: 'rgb(250,232,220)',
         marginTop: '0px'
+
+
+        
       }}
     >
       <div>
